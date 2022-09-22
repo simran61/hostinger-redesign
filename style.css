@@ -27,27 +27,28 @@ header {
 /* countdown starts */
 #clockdiv {
   display: inline-block;
-  text-align: center;
-  font-size: 1.3rem;
 }
 
 #clockdiv > div {
-  padding: 0.7rem;
-  border-radius: 0.7rem;
+  margin: 1rem 0.5rem;
   display: inline-block;
-  color: black;
 }
 
 #clockdiv div > span {
-  padding: 15px;
-  border-radius: 3px;
+  width: 3.2rem;
+  height: 3.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background: var(--primary-color);
-  display: inline-block;
   color: var(--white-color);
+  border-radius: 0.3rem;
+  font-weight: 600;
+  font-size: 1.3rem;
 }
 
-smalltext {
-  padding-top: 5px;
+.smalltext {
+  padding-top: 0.6rem;
   font-size: 16px;
 }
 /* countdown ends */
