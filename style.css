@@ -22,6 +22,24 @@ header {
   font-size: 2.5rem;
 }
 
+.bg_heading {
+  font-size: 6rem;
+  color: #f0ebff;
+  position: absolute;
+  top: -2.2rem;
+  left: 32%;
+  z-index: -1;
+}
+
+.bg_hoisting {
+  left: 23%;
+}
+
+.bg_testi {
+  top: -0.3rem;
+  left: 27%;
+}
+
 .hero_amount {
   font-size: 4rem;
 }
@@ -404,7 +422,7 @@ footer {
 .pricing_para {
   max-width: 40%;
   text-align: center;
-  margin: auto;
+  margin: 0 auto 2rem auto;
 }
 
 .pricing_table {

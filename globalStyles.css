@@ -84,7 +84,16 @@ h3 {
 
 .primary_heading {
   font-size: 2.5rem;
-  margin: 2rem;
+  margin: 2rem auto 4rem auto;
+}
+
+.separator {
+  border: 4px solid var(--primary-color);
+  border-bottom: none;
+  width: 12%;
+  margin: 10px auto;
+  position: relative;
+  bottom: 2rem;
 }
 
 .width_70 {
