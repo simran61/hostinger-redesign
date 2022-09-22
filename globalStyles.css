@@ -106,6 +106,16 @@ ul {
   margin-top: 1rem;
 }
 
+.m_t_2 {
+  margin-top: 2rem;
+}
+
+hr {
+  margin-top: 1rem;
+  border: 0;
+  border-bottom: 1px solid var(--light-primary);
+}
+
 /* font size */
 .font_xsm {
   font-size: 2rem;

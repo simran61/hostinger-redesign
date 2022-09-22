@@ -352,7 +352,8 @@ section {
 /* testimonial ends */
 
 .services,
-.pricing_section {
+.pricing_section,
+footer {
   margin: 2rem 7rem;
 }
 
@@ -361,10 +362,7 @@ section {
 }
 
 .single_service {
-  /* background-color: var(--grey-color); */
-  background-color: #8ec5fc;
-  background-image: linear-gradient(62deg, #8ec5fc 0%, #e0c3fc 100%);
-  color: var(--white-color);
+  background-color: var(--grey-color);
   flex-basis: 45%;
   border-radius: 0.7rem;
   padding: 1.5rem 2rem;
@@ -427,4 +425,41 @@ section {
 
 .list_item {
   margin: 1rem;
+}
+/* footer */
+.footer_heading {
+  color: var(--primary-color);
+  font-size: 1.2rem;
+}
+
+.footer_list {
+  margin: 0.7rem 0;
+}
+
+.connect_us {
+  width: 20%;
+  margin: auto;
+}
+
+.connect_heading {
+  margin: 2.7rem auto 1rem auto;
+  font-weight: bold;
+}
+
+.social_links > li > i {
+  font-size: 1.5rem;
+  color: var(--primary-color);
+}
+
+.footer_txt {
+  background-color: var(--light-primary);
+  padding: 1.5rem;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.footer_price_txt {
+  color: grey;
+  text-align: center;
+  margin-top: 1rem;
 }
