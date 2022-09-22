@@ -1,36 +1,60 @@
-// countdown starts
-const endDate = "23 Septemper 2022 08:20:00 PM";
+//   all ------------------
+function myTestimonial() {
+  "use strict";
 
-document.getElementById("end-date").innerText = endDate;
-const inputs = document.querySelectorAll("input");
-// const clock = () => {
+  if ($(".testimonials-carousel").length > 0) {
+    var j2 = new Swiper(".testimonials-carousel .swiper-container", {
+      preloadImages: false,
+      slidesPerView: 1,
+      spaceBetween: 20,
+      loop: true,
+      grabCursor: true,
+      mousewheel: false,
+      centeredSlides: true,
+      pagination: {
+        el: ".tc-pagination",
+        clickable: true,
+        dynamicBullets: true,
+      },
+      navigation: {
+        nextEl: ".listing-carousel-button-next",
+        prevEl: ".listing-carousel-button-prev",
+      },
+      breakpoints: {
+        1024: {
+          slidesPerView: 3,
+        },
+      },
+    });
+  }
 
-// }
+  // bubbles -----------------
 
-function clock() {
-  const end = new Date(endDate);
-  const now = new Date();
-  const diff = (end - now) / 1000;
-
-  if (diff < 0) return;
-
-  // convert into days;
-  inputs[0].value = Math.floor(diff / 3600 / 24);
-  inputs[1].value = Math.floor(diff / 3600) % 24;
-  inputs[2].value = Math.floor(diff / 60) % 60;
-  inputs[3].value = Math.floor(diff) % 60;
+  setInterval(function () {
+    var size = randomValue(sArray);
+    $(".bubbles").append(
+      '<div class="individual-bubble" style="left: ' +
+        randomValue(bArray) +
+        "px; width: " +
+        size +
+        "px; height:" +
+        size +
+        'px;"></div>'
+    );
+    $(".individual-bubble").animate(
+      {
+        bottom: "100%",
+        opacity: "-=0.7",
+      },
+      4000,
+      function () {
+        $(this).remove();
+      }
+    );
+  }, 350);
 }
 
-// initial call
-clock();
-
-/**
- *  1 day = 24 hrs
- *  1 hr = 60 mins
- *  60 min = 3600 sec
- */
-
-setInterval(() => {
-  clock();
-}, 1000);
-// countdown ends
+//   Init All ------------------
+$(document).ready(function () {
+  myTestimonial();
+});
