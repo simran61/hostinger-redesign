@@ -350,3 +350,34 @@ section {
 /* testimonals ends */
 
 /* testimonial ends */
+
+.services {
+  margin: 2rem 7rem;
+}
+
+.service_list {
+  gap: 1.5rem;
+}
+
+.single_service {
+  /* background-color: var(--grey-color); */
+  background-color: #8ec5fc;
+  background-image: linear-gradient(62deg, #8ec5fc 0%, #e0c3fc 100%);
+  color: var(--white-color);
+  flex-basis: 45%;
+  border-radius: 0.7rem;
+  padding: 1.5rem 2rem;
+}
+
+.single_service:hover {
+  box-shadow: 7px 7px 10px rgb(172, 172, 172);
+  transition: 0.4s ease-in-out;
+}
+
+.service_txt {
+  flex-basis: 80%;
+}
+
+.service_icon {
+  height: 4rem;
+}

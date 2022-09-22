@@ -10,6 +10,7 @@
 :root {
   --primary-color: #673de6;
   --white-color: #fff;
+  --grey-color: rgb(231, 229, 229);
 }
 
 .flex {
@@ -78,6 +79,10 @@ ul {
   padding: 2rem;
 }
 
+.p_3 {
+  padding: 3rem;
+}
+
 .p_lr_4 {
   padding-left: 4rem;
   padding-right: 4rem;
@@ -103,4 +108,8 @@ ul {
 /* font size */
 .font_xsm {
   font-size: 2rem;
+}
+
+.secondary_heading {
+  margin-bottom: 2rem;
 }
