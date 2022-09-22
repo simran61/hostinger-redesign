@@ -43,6 +43,7 @@
   border: none;
   outline: none;
   font-size: 0.9rem;
+  cursor: pointer;
 }
 
 .btn_primary,
@@ -52,10 +53,20 @@
   padding: 0.5rem 2rem;
 }
 
+.btn:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: 0.3s ease-in-out;
+}
+
 .btn_secondary {
   border: 1px solid var(--primary-color);
   background: transparent;
   color: var(--primary-color);
+}
+
+.btn_secondary:hover {
+  background-color: var(--light-primary);
+  transition: 0.3s ease-in-out;
 }
 
 .width_70 {

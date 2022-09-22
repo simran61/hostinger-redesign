@@ -120,7 +120,7 @@ header {
 
 .position_img6 {
   top: 6.8rem;
-  right: 9.6rem;
+  right: 10.5rem;
 }
 
 .position_img7 {
@@ -135,7 +135,7 @@ header {
 
 .position_img9 {
   top: 26.8rem;
-  right: 16rem;
+  right: 17rem;
 }
 
 /* testiminial starts */
@@ -362,14 +362,14 @@ footer {
 }
 
 .service_list {
-  gap: 1.5rem;
+  gap: 1.2rem;
 }
 
 .single_service {
   background-color: var(--grey-color);
-  flex-basis: 45%;
+  flex-basis: 32%;
   border-radius: 0.7rem;
-  padding: 1.5rem 2rem;
+  padding: 1rem;
 }
 
 .single_service:hover {
@@ -387,7 +387,7 @@ footer {
 }
 
 .service_icon {
-  height: 4rem;
+  /* height: 4rem; */
 }
 
 /* pricing section */
