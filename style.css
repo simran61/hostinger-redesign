@@ -351,7 +351,8 @@ section {
 
 /* testimonial ends */
 
-.services {
+.services,
+.pricing_section {
   margin: 2rem 7rem;
 }
 
@@ -380,4 +381,50 @@ section {
 
 .service_icon {
   height: 4rem;
+}
+
+/* pricing section */
+.featured_ribbon {
+  /* background-color: var(--primary-color); */
+  color: var(--primary-color);
+  background-color: var(--light-primary);
+  padding: 1rem;
+  border-radius: 0.7rem 0.7rem 0 0;
+  border-top: 5px solid var(--primary-color);
+}
+
+.pricing_table {
+  border-radius: 0 0 0.7rem 0.7rem;
+  padding: 2rem 2rem;
+  border-bottom: 5px solid var(--primary-color);
+  border-left: 2px solid var(--grey-color);
+
+  border-right: 2px solid var(--grey-color);
+  position: relative;
+}
+
+.amount {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.amount_tagline {
+  font-size: 1.2rem;
+}
+
+.icon_styling {
+  margin-right: 0.7rem;
+  color: var(--primary-color);
+  font-size: 1.2rem;
+}
+
+.see_more {
+  font-size: 1.2rem;
+  color: var(--primary-color);
+  font-weight: 600;
+  margin: 0.7rem;
+}
+
+.list_item {
+  margin: 1rem;
 }
