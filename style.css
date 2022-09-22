@@ -1,3 +1,9 @@
+.services,
+.pricing_section,
+.my_testimonials {
+  min-height: 100vh;
+}
+
 .logo_img {
   height: 2.7rem;
 }
@@ -386,13 +392,8 @@ footer {
   margin-top: 0.3rem;
 }
 
-.service_icon {
-  /* height: 4rem; */
-}
-
 /* pricing section */
 .featured_ribbon {
-  /* background-color: var(--primary-color); */
   color: var(--primary-color);
   background-color: var(--light-primary);
   padding: 1rem;
@@ -400,14 +401,34 @@ footer {
   border-top: 5px solid var(--primary-color);
 }
 
+.pricing_para {
+  max-width: 40%;
+  text-align: center;
+  margin: auto;
+}
+
 .pricing_table {
   border-radius: 0 0 0.7rem 0.7rem;
-  padding: 2rem 2rem;
+  padding: 2rem 3rem;
   border-bottom: 5px solid var(--primary-color);
-  border-left: 2px solid var(--grey-color);
-
-  border-right: 2px solid var(--grey-color);
+  border-left: 1px solid var(--grey-color);
+  border-right: 1px solid var(--grey-color);
   position: relative;
+}
+
+.table_right,
+.table_center,
+.table_left {
+  flex-basis: 33%;
+}
+
+.table_center {
+  border-right: 2px solid var(--grey-color);
+  border-left: 2px solid var(--grey-color);
+}
+
+.hide {
+  display: none;
 }
 
 .amount {
@@ -430,6 +451,7 @@ footer {
   color: var(--primary-color);
   font-weight: 600;
   margin: 0.7rem;
+  cursor: pointer;
 }
 
 .list_item {
@@ -437,12 +459,12 @@ footer {
 }
 /* footer */
 .footer_heading {
-  color: var(--primary-color);
   font-size: 1.2rem;
 }
 
 .footer_list {
   margin: 0.7rem 0;
+  color: var(--txt-dark-grey);
 }
 
 .connect_us {

@@ -1,3 +1,12 @@
+// show hide toggle plans
+var btn = document.querySelector(".btn_show_more");
+var morePlans = document.querySelector(".my_more_plans");
+btn.addEventListener("click", () => {
+  console.log("clicked");
+  console.log(morePlans);
+  morePlans.classList.toggle("hide");
+});
+
 //   all ------------------
 function myTestimonial() {
   "use strict";

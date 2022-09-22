@@ -12,6 +12,18 @@
   --white-color: #fff;
   --grey-color: rgb(231, 229, 229);
   --light-primary: #e7e1f9;
+  --txt-primary: #2f1c6a;
+  --txt-dark-grey: rgb(93, 93, 93);
+}
+
+h1,
+h2,
+h3 {
+  color: var(--txt-primary);
+}
+
+.block {
+  display: block;
 }
 
 .flex {
@@ -65,8 +77,14 @@
 }
 
 .btn_secondary:hover {
+  box-shadow: none;
   background-color: var(--light-primary);
   transition: 0.3s ease-in-out;
+}
+
+.primary_heading {
+  font-size: 2.5rem;
+  margin: 2rem;
 }
 
 .width_70 {
@@ -130,8 +148,4 @@ hr {
 /* font size */
 .font_xsm {
   font-size: 2rem;
-}
-
-.secondary_heading {
-  margin-bottom: 2rem;
 }
