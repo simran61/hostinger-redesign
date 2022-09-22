@@ -26,26 +26,24 @@ header {
 
 /* countdown starts */
 #clockdiv {
-  font-family: sans-serif;
-  color: #fff;
   display: inline-block;
-  font-weight: 100;
   text-align: center;
-  font-size: 30px;
+  font-size: 1.3rem;
 }
 
 #clockdiv > div {
-  padding: 10px;
-  border-radius: 3px;
-  background: #00bf96;
+  padding: 0.7rem;
+  border-radius: 0.7rem;
   display: inline-block;
+  color: black;
 }
 
 #clockdiv div > span {
   padding: 15px;
   border-radius: 3px;
-  background: #00816a;
+  background: var(--primary-color);
   display: inline-block;
+  color: var(--white-color);
 }
 
 smalltext {

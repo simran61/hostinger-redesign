@@ -60,7 +60,7 @@ $(document).ready(function () {
 });
 
 // COUNTDOWN TIMMER STARTS
-var deadline = new Date("dec 31, 2022 15:37:25").getTime();
+var deadline = new Date("oct 7, 2022 15:37:25").getTime();
 
 var x = setInterval(function () {
   var now = new Date().getTime();
