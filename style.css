@@ -76,7 +76,7 @@ header {
 .ui_img2 {
   height: 27rem;
   top: 4rem;
-  right: -1rem;
+  right: 0rem;
 }
 
 .position_img:hover {
@@ -379,6 +379,11 @@ footer {
 
 .service_txt {
   flex-basis: 80%;
+}
+
+.service_txt > p {
+  font-size: 0.95rem;
+  margin-top: 0.3rem;
 }
 
 .service_icon {
