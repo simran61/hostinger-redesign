@@ -162,6 +162,22 @@ header {
   right: 17rem;
 }
 
+/* partners */
+.partners_wrapper {
+  background-color: var(--light-primary);
+}
+
+.partners {
+  max-width: 60%;
+  padding: 3rem 0;
+  margin: 5rem auto;
+}
+
+.partner_logo {
+  width: 14rem;
+  /* filter: grayscale(100%); */
+}
+
 /* testiminial starts */
 section {
   text-align: center;
@@ -366,7 +382,7 @@ footer {
 }
 
 .single_service {
-  background-color: var(--grey-color);
+  background-color: #f1ebff;
   flex-basis: 32%;
   border-radius: 0.7rem;
   padding: 1rem;
