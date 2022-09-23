@@ -23,27 +23,132 @@
     <nav class="flex justify_btw align_center p_1 p_lr_4">
         <div class="nav_left flex align_center">
             <img src="./assets/images/logo.png" alt="logo" class="logo_img m_r_2">
+            <!-- dropdown menu -->
             <div class="menu_links">
                 <ul class="flex nav-menu">
-                    <li class="m_r_2 menu">Hosting <i class="fa-solid fa-angle-down"></i></li>
-                    <li class="m_r_2 menu">VPS <i class="fa-solid fa-angle-down"></i></li>
-                    <li class="m_r_2 menu">Email <i class="fa-solid fa-angle-down"></i></li>
-                    <li class="m_r_2 menu">Domain <i class="fa-solid fa-angle-down"></i></li>
+                    <div class="dropdown">
+                        <button class="m_r_2 menu dropbtn">Hosting <i class="fa-solid fa-angle-down"></i></button>
+                        <div class="dropdown-content">
+                            <a href="#" class="flex">
+                                <img src="./assets/images/services/access-management.svg" alt="" class="menu_icon">
+                                <div class="menu_txt">
+                                    <h3>Web Hoisting</h3>
+                                    <p>For small to medium websites</p>
+                                </div>
+                            </a>
+                            <a href="#" class="flex">
+                                <img src="./assets/images/services/access-management.svg" alt="" class="menu_icon">
+                                <div class="menu_txt">
+                                    <h3>Cloud Hoisting</h3>
+                                    <p>For large scale projects</p>
+                                </div>
+                            </a>
+                            <a href="#" class="flex">
+                                <img src="./assets/images/services/access-management.svg" alt="" class="menu_icon">
+                                <div class="menu_txt">
+                                    <h3>WordPress Hoisting</h3>
+                                    <p>Optimized solutions for WordPress hosting</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="dropdown">
+                        <button class="m_r_2 menu dropbtn">VPS <i class="fa-solid fa-angle-down"></i></button>
+                        <div class="dropdown-content">
+                            <a href="#" class="flex">
+                                <img src="./assets/images/services/access-management.svg" alt="" class="menu_icon">
+                                <div class="menu_txt">
+                                    <h3>VPS Hoisting</h3>
+                                    <p>Dedicated resources to scale</p>
+                                </div>
+                            </a>
+                            <a href="#" class="flex">
+                                <img src="./assets/images/services/access-management.svg" alt="" class="menu_icon">
+                                <div class="menu_txt">
+                                    <h3>CyberPanel Hoisting</h3>
+                                    <p>Control pannel with Open/LiteSpeed Webserver</p>
+                                </div>
+                            </a>
+                            <a href="#" class="flex">
+                                <img src="./assets/images/services/access-management.svg" alt="" class="menu_icon">
+                                <div class="menu_txt">
+                                    <h3>Minecraft Server Hoisting</h3>
+                                    <p>Share your Minecraft experience</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="dropdown">
+                        <button class="m_r_2 menu dropbtn">Email <i class="fa-solid fa-angle-down"></i></button>
+                        <div class="dropdown-content">
+                            <a href="#" class="flex">
+                                <img src="./assets/images/services/access-management.svg" alt="" class="menu_icon">
+                                <div class="menu_txt">
+                                    <h3>Google Workspace Email Hosting</h3>
+                                    <p>Get custon email & 30GB of storage</p>
+                                </div>
+                            </a>
+                            <a href="#" class="flex">
+                                <img src="./assets/images/services/access-management.svg" alt="" class="menu_icon">
+                                <div class="menu_txt">
+                                    <h3>Hostinger Email Hoisting</h3>
+                                    <p>Promote your business with every outreach.</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="dropdown">
+                        <button class="m_r_2 menu dropbtn">Domain <i class="fa-solid fa-angle-down"></i></button>
+                        <div class="dropdown-content">
+                            <a href="#" class="flex">
+                                <img src="./assets/images/services/access-management.svg" alt="" class="menu_icon">
+                                <div class="menu_txt">
+                                    <h3>Domain Name Search</h3>
+                                    <p>Find the perfect domain name</p>
+                                </div>
+                            </a>
+                            <a href="#" class="flex">
+                                <img src="./assets/images/services/access-management.svg" alt="" class="menu_icon">
+                                <div class="menu_txt">
+                                    <h3>WHOIS Lookup</h3>
+                                    <p>Lookup tool to find WHOIS information</p>
+                                </div>
+                            </a>
+                            <a href="#" class="flex">
+                                <img src="./assets/images/services/access-management.svg" alt="" class="menu_icon">
+                                <div class="menu_txt">
+                                    <h3>Domain Transfer</h3>
+                                    <p>Want to transfer domain to Hostinger?</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
                 </ul>
             </div>
             <!-- responsive -->
-            <div class="hamburger">
+            <!-- <div class="hamburger">
                 <span class="bar"></span>
                 <span class="bar"></span>
                 <span class="bar"></span>
-            </div>
+            </div> -->
         </div>
 
-        <div class="nav_right">
-            <span class="m_l_07">English <i class="fa-solid fa-angle-down"></i></span>
+        <div class="nav_right nav-menu">
+            <span class="m_l_07">
+                <img src="./assets/images/flags/india.png" alt="" class="india">
+                English <i class="fa-solid fa-angle-down"></i></span>
             <span class="m_l_07"><i class="fa-solid fa-cart-shopping"></i> Cart</span>
             <button class="btn nav_btn m_l_07">Login</button>
 
+        </div>
+        <!-- responsive -->
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
         </div>
     </nav>
 
