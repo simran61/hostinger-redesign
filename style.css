@@ -8,6 +8,27 @@
   height: 2.7rem;
 }
 
+.hamburger {
+  display: none;
+  margin: 1.8rem;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: var(--primary-color);
+}
+
+.menu {
+  text-decoration: none;
+  margin: 0.7rem;
+  font-size: 1.2rem;
+}
+
 header {
   height: 88vh;
   display: flex;
@@ -170,7 +191,7 @@ header {
 .partners {
   max-width: 60%;
   padding: 3rem 0;
-  margin: 5rem auto;
+  margin: 2rem auto 3.5rem auto;
 }
 
 .partner_logo {
@@ -508,4 +529,67 @@ footer {
   color: grey;
   text-align: center;
   margin-top: 1rem;
+}
+
+@media only screen and (max-width: 770px) {
+  .nav-menu {
+    position: fixed;
+    left: -120%;
+    top: 5rem;
+    flex-direction: column;
+    background-color: #fff;
+    width: 100%;
+    border-radius: 10px;
+    text-align: center;
+    transition: 0.3s;
+    box-shadow: 0 10px 27px rgba(0, 0, 0, 0.1);
+  }
+
+  .nav-menu.active {
+    left: 0;
+  }
+
+  .hamburger {
+    display: block;
+    cursor: pointer;
+  }
+
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+
+  .hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+
+  /* temp hidden imgs */
+  .ui_images,
+  .images {
+    display: none;
+  }
+
+  .bg_heading {
+    /* font-size: 3rem; */
+    display: none;
+  }
+
+  .single_service {
+    flex-basis: 100%;
+  }
+
+  .services,
+  .pricing_section,
+  footer {
+    margin: 2rem;
+  }
+
+  .table_left,
+  .table_center,
+  .table_right {
+    flex-basis: 100%;
+  }
 }
