@@ -717,7 +717,9 @@ footer {
 
   .position_img {
     height: 1.7rem;
-    filter: drop-shadow(0 0 0.3rem rgb(188, 188, 188));
+    filter: drop-shadow(0 0 0.2rem rgb(188, 188, 188));
+    z-index: -5;
+    opacity: 0.5;
   }
 
   .position_img:hover {
