@@ -522,6 +522,10 @@ footer {
   padding: 0 0 3rem 0;
 }
 
+.details_third > img {
+  width: 30rem;
+}
+
 /* pricing section */
 .featured_ribbon {
   color: var(--primary-color);
@@ -850,6 +854,10 @@ footer {
 
   .details_second {
     margin-right: 0rem;
+  }
+
+  .details_second > img {
+    margin-top: 1.5rem;
   }
 
   .details_third {
