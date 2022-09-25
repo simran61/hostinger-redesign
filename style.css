@@ -95,6 +95,15 @@ header {
   font-size: 2.5rem;
 }
 
+.hero_tagline {
+  font-weight: 600;
+}
+
+.bold_txt {
+  font-weight: 900;
+  color: var(--primary-color);
+}
+
 .bg_heading {
   font-size: 6rem;
   color: #f0ebff;
