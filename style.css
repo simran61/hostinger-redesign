@@ -754,13 +754,8 @@ footer {
     flex-basis: 100%;
   }
 
-  #clockdiv {
-    /* display: inline-block; */
-  }
-
   #clockdiv > div {
     margin: 1rem 0.2rem;
-    /* display: inline-block; */
   }
 
   #clockdiv div > span {
@@ -869,11 +864,6 @@ footer {
     flex-basis: 100%;
   }
 
-  .small_heading {
-    /* color: var(--light-primary); */
-    /* margin: 0.5rem 0; */
-  }
-
   .details_text > p {
     width: 100%;
     margin: 1rem 0;
@@ -911,7 +901,6 @@ footer {
 
   /* newsletter */
   .newslettter {
-    /* background-color: var(--light-primary); */
     padding: 0 2rem 2rem 2rem;
     margin-bottom: 4rem;
   }
@@ -922,33 +911,21 @@ footer {
 
   .newsletter_txt {
     flex-basis: 100%;
-    /* background-color: var(--white-color); */
-    /* border-radius: 1rem; */
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    /* box-shadow: 0; */
   }
 
   .newsletter_txt > input {
-    /* display: block; */
-    /* width: 80%; */
     padding: 0.5rem 0.7rem;
-    /* border: 1px solid var(--primary-color); */
-    /* outline: none; */
-    /* border-radius: 0.3rem; */
     margin: 0.7rem auto;
     font-size: 0.9rem;
   }
 
   .newsletter_txt > h1 {
-    /* font-family: "Pacifico", cursive; */
-    /* font-weight: 200; */
-    /* line-height: 2.5rem; */
     font-size: 1.8rem;
   }
 
   .newsletter_txt > p {
     margin: 1rem;
-    /* text-align: justify; */
   }
 
   .services,
