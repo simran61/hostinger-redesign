@@ -710,4 +710,13 @@ footer {
   .table_center {
     border: 0;
   }
+
+  .connect_us {
+    width: 100%;
+  }
+
+  .social_links {
+    max-width: 60%;
+    margin: auto;
+  }
 }
