@@ -450,6 +450,7 @@ section {
 
 .services,
 .pricing_section,
+.details,
 footer {
   margin: 2rem 7rem;
 }
@@ -477,6 +478,29 @@ footer {
 .service_txt > p {
   font-size: 0.95rem;
   margin-top: 0.3rem;
+}
+
+/* details */
+.details_text {
+  flex-basis: 40%;
+}
+
+.small_heading {
+  color: var(--light-primary);
+  margin: 0.5rem 0;
+}
+
+.details_text > p {
+  margin: 1rem 0;
+  font-size: 1.2rem;
+}
+
+.list_details {
+  gap: 0.3rem 1.5rem;
+}
+
+.details_img {
+  width: 33rem;
 }
 
 /* pricing section */
