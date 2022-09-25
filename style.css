@@ -482,7 +482,7 @@ footer {
 
 /* details */
 .details_text {
-  flex-basis: 40%;
+  flex-basis: 50%;
 }
 
 .small_heading {
@@ -491,8 +491,13 @@ footer {
 }
 
 .details_text > p {
+  width: 92%;
   margin: 1rem 0;
   font-size: 1.2rem;
+}
+
+.list_details > span {
+  font-size: 1.1rem;
 }
 
 .list_details {
