@@ -4,13 +4,16 @@
   min-height: 100vh;
 }
 
+nav {
+  padding: 1rem 4rem;
+}
+
 .logo_img {
   height: 2.7rem;
 }
 
 .hamburger {
   display: none;
-  margin: 1.8rem;
 }
 
 .bar {
@@ -615,26 +618,42 @@ footer {
     transform: translateY(-8px) rotate(-45deg);
   }
 
+  header {
+    height: 70vh;
+    max-width: 100%;
+  }
+
   .hero_heading {
-    font-size: 1.4rem;
+    font-size: 1.5rem;
+    max-width: 75%;
   }
 
   .hero_amount {
-    font-size: 1.3rem;
+    font-size: 1.9rem;
+    margin: 0.6rem 0;
   }
 
   .font_xsm {
-    font-size: 0.6rem;
+    font-size: 0.9rem;
   }
 
   /* temp hidden imgs */
-  .ui_images,
   .images {
     display: none;
   }
 
+  .ui_img1 {
+    height: 11rem;
+    top: 60vh;
+  }
+
+  .ui_img2 {
+    height: 11rem;
+    top: 8vh;
+    right: 0rem;
+  }
+
   .bg_heading {
-    /* font-size: 3rem; */
     display: none;
   }
 
@@ -652,5 +671,43 @@ footer {
   .table_center,
   .table_right {
     flex-basis: 100%;
+  }
+
+  #clockdiv {
+    /* display: inline-block; */
+  }
+
+  #clockdiv > div {
+    margin: 1rem 0.2rem;
+    /* display: inline-block; */
+  }
+
+  #clockdiv div > span {
+    width: 2.5rem;
+    height: 2.5rem;
+    font-size: 1.2rem;
+  }
+  /* countdown ends */
+
+  .arrow {
+    height: 3rem;
+  }
+
+  nav {
+    padding: 1.5rem;
+  }
+
+  .pricing_para {
+    max-width: 80%;
+    text-align: center;
+    margin: 0 auto 2rem auto;
+  }
+
+  .pricing_table {
+    padding: 2rem;
+  }
+
+  .table_center {
+    border: 0;
   }
 }
