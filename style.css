@@ -515,6 +515,7 @@ footer {
 
 .details_second {
   margin-right: 2rem;
+  flex-wrap: wrap-reverse;
 }
 
 .details_third {
@@ -702,12 +703,6 @@ footer {
     flex-basis: 100%;
   }
 
-  .services,
-  .pricing_section,
-  footer {
-    margin: 2rem;
-  }
-
   .table_left,
   .table_center,
   .table_right {
@@ -818,5 +813,53 @@ footer {
     top: 74vh;
     right: 55vw;
     /* mongodb */
+  }
+
+  /* details */
+  .details {
+    padding: 0;
+  }
+
+  .details_text {
+    flex-basis: 100%;
+  }
+
+  .small_heading {
+    /* color: var(--light-primary); */
+    /* margin: 0.5rem 0; */
+  }
+
+  .details_text > p {
+    width: 100%;
+    margin: 1rem 0;
+    font-size: 1rem;
+  }
+
+  .list_details > span {
+    font-size: 0.9rem;
+  }
+
+  .list_details {
+    gap: 0.2rem;
+    margin-bottom: 0rem;
+  }
+
+  .details_img {
+    width: 17rem;
+  }
+
+  .details_second {
+    margin-right: 0rem;
+  }
+
+  .details_third {
+    padding: 0;
+  }
+
+  .services,
+  .pricing_section,
+  .details,
+  footer {
+    margin: 2rem;
   }
 }
