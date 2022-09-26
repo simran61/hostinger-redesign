@@ -648,6 +648,7 @@ footer {
 .company {
   color: var(--light-primary);
   font-weight: bold;
+  text-shadow: 2px 2px var(--txt-dark-grey);
 }
 
 .search_domain > h1 {
